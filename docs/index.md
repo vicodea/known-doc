@@ -4,7 +4,7 @@ heroImage: https://cdn.staticaly.com/gh/1292401015/picx-images-hosting@master/20
 heroText: let's  keep love coding
 tagline: 知识点是一个个的砖头，构成了整个技术体系 🚀
 actionText: 开始阅读 →
-actionLink: /pages/a2f161/
+actionLink: /pages/f8c321/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的

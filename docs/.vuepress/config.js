@@ -24,6 +24,15 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '面试', link: '/pages/f8c321/' },
+      { 
+		text: '数据库', link: '/pages/96d093/',items:[
+			 {
+			   text: 'Mysql 教程', items: [
+				 { text: '基础语法', link: '/pages/96d093/' }
+			   ]
+			 }
+		]
+	  },
       {
         text: '指南', link: '/pages/a2f161/', items: [
           { text: '主题初衷与诞生', link: '/pages/52d5c3/' },

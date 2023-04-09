@@ -15,8 +15,8 @@ module.exports = {
     ['meta', { name: 'keywords', content: '程序猫,全栈知识体系,知识管理' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }], // 移动浏览器主题颜色
 
-    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
+    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
   ],
 
   // 主题配置
@@ -165,7 +165,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
+        hm: baiduCode || 'e2fb3bdf70b43b263b58e5cacfb3bf24'
       }
     ],
 

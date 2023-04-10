@@ -8,12 +8,12 @@ actionLink: /pages/f8c321/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
+  - title: 面试题库
+    details: 提供Java全栈知识体系面试题目，涵盖：Spring、SpringBoot、SpringCloud微服务、Mybatis、MySQL、多线程、Redis等
   - title: 知识管理
-    details: 包含三种典型的知识管理形态：结构化、碎片化、体系化。轻松打造属于你自己的知识平台
-  - title: 简洁优雅
-    details: 以 Markdown 为中心的项目结构，不同的层级显示，更好的学习以及配合多维索引快速定位每个知识点
+    details: 记录基础知识点和常用操作，涵盖了各种不同的技术领域，包括前端、后端、移动开发、数据科学、云计算、容器等
   - title: 沉浸式阅读
-    details: 专为阅读设计的UI，配合多种颜色模式、可关闭的侧边栏和导航栏，带给你一种沉浸式阅读体验
+    details: 内容简洁清晰、易于理解，针对性强，能够帮助初学者快速入门，同时也能够提供一些深入的技术知识，让读者更深入地理解技术
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none

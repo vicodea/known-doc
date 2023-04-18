@@ -25,10 +25,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '导航', link: '/pages/094379/' },
       { text: '面试', link: '/pages/f8c321/' },
-      // {
-		// text: '数据库', link: '/pages/96d093/'
-	  // },
+      { text: '后端', link: '/pages/2911fc/' },
+      { text: '数据库', link: '/pages/96d093/' },
       // {
       //   text: '指南', link: '/pages/a2f161/', items: [
       //     { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
@@ -103,7 +103,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: '程序喵', // 必需
-      href: 'https://github.com/oliugx' // 可选的
+      href: 'https://github.com/vicodea' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -212,7 +212,7 @@ module.exports = {
 
   markdown: {
     // lineNumbers: true,
-    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+    extractHeaders: ['h1','h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
 
   // 监听文件变化并重新构建

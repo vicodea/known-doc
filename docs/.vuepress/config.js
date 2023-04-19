@@ -28,7 +28,9 @@ module.exports = {
       { text: '导航', link: '/pages/094379/' },
       { text: '面试', link: '/pages/f8c321/' },
       { text: '后端', link: '/pages/2911fc/' },
+      { text: '前端', link: '/pages/96d093/' },
       { text: '数据库', link: '/pages/96d093/' },
+      { text: '运维', link: '/pages/d02e2a/' },
       // {
       //   text: '指南', link: '/pages/a2f161/', items: [
       //     { text: '主题初衷与诞生', link: '/pages/52d5c3/' },

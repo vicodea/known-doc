@@ -31,6 +31,7 @@ module.exports = {
       { text: '前端', link: '/pages/96d093/' },
       { text: '数据库', link: '/pages/96d093/' },
       { text: '运维', link: '/pages/d02e2a/' },
+      { text: '成长', link: '/pages/6d02c7/' },
       // {
       //   text: '指南', link: '/pages/a2f161/', items: [
       //     { text: '主题初衷与诞生', link: '/pages/52d5c3/' },

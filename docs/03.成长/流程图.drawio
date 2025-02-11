@@ -107,11 +107,70 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="hZbompF5MABq-yxzu6m7" name="第 2 页">
+  <diagram id="hZbompF5MABq-yxzu6m7" name="飞行控制">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-1" target="vFy_uh4Gz84X9XJkkxNN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-15" target="vFy_uh4Gz84X9XJkkxNN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-15" target="vFy_uh4Gz84X9XJkkxNN-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="270" />
+              <mxPoint x="620" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-15" value="获取飞行控制权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-16" target="vFy_uh4Gz84X9XJkkxNN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-16" target="vFy_uh4Gz84X9XJkkxNN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-16" value="一键起飞" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-24" target="vFy_uh4Gz84X9XJkkxNN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-24" value="航线任务执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-26" target="vFy_uh4Gz84X9XJkkxNN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-26" value="flyto飞向目标点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-29" value="下发mqtt指令&lt;div&gt;抢夺飞行控制权&lt;/div&gt;&lt;div&gt;和负载控制权&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-33" value="指令飞行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="640" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-35" target="vFy_uh4Gz84X9XJkkxNN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-35" value="到点立即下发&lt;span style=&quot;background-color: transparent;&quot;&gt;进入指令飞行控制模式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-36" value="执行飞行控制类指令（上下左右等动作）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-38" value="负载控制类指令&lt;div&gt;（如拍照等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

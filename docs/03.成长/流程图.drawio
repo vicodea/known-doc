@@ -121,6 +121,11 @@
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-15" target="vFy_uh4Gz84X9XJkkxNN-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-52" value="飞行器在舱内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFy_uh4Gz84X9XJkkxNN-17">
+          <mxGeometry x="0.26" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-15" target="vFy_uh4Gz84X9XJkkxNN-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -129,11 +134,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-53" value="飞行器在舱外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFy_uh4Gz84X9XJkkxNN-25">
+          <mxGeometry x="0.0043" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-15" value="获取飞行控制权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-16" target="vFy_uh4Gz84X9XJkkxNN-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-55" value="继续执行flyto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFy_uh4Gz84X9XJkkxNN-28">
+          <mxGeometry x="-0.2246" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-16" target="vFy_uh4Gz84X9XJkkxNN-29">
           <mxGeometry relative="1" as="geometry" />
@@ -144,14 +159,24 @@
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-24" target="vFy_uh4Gz84X9XJkkxNN-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-54" value="暂停航线任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFy_uh4Gz84X9XJkkxNN-27">
+          <mxGeometry x="-0.195" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-24" value="航线任务执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-26" target="vFy_uh4Gz84X9XJkkxNN-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-26" value="flyto飞向目标点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-29" value="下发mqtt指令&lt;div&gt;抢夺飞行控制权&lt;/div&gt;&lt;div&gt;和负载控制权&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="540" width="120" height="60" as="geometry" />
@@ -170,6 +195,67 @@
         </mxCell>
         <mxCell id="vFy_uh4Gz84X9XJkkxNN-38" value="负载控制类指令&lt;div&gt;（如拍照等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="720" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="320" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="320" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="920" as="sourcePoint" />
+            <mxPoint x="720" y="640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="920" as="sourcePoint" />
+            <mxPoint x="320" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-48" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vFy_uh4Gz84X9XJkkxNN-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="920" as="sourcePoint" />
+            <mxPoint x="440" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vFy_uh4Gz84X9XJkkxNN-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="770" as="sourcePoint" />
+            <mxPoint x="961.60009765625" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="770" />
+              <mxPoint x="960" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vFy_uh4Gz84X9XJkkxNN-26" target="vFy_uh4Gz84X9XJkkxNN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFy_uh4Gz84X9XJkkxNN-57" value="重复执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFy_uh4Gz84X9XJkkxNN-56">
+          <mxGeometry x="-0.2729" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

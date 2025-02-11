@@ -1,14 +1,108 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="26.0.11">
-  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+  <diagram name="获取控制权" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1615" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="97lMqQAMAV_vL4t6O9v4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-6" target="97lMqQAMAV_vL4t6O9v4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-6" value="触发获取操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-7" target="97lMqQAMAV_vL4t6O9v4-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="97lMqQAMAV_vL4t6O9v4-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="322.5" y="51" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-10" target="97lMqQAMAV_vL4t6O9v4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-34" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97lMqQAMAV_vL4t6O9v4-25">
+          <mxGeometry x="-0.5914" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-10" target="97lMqQAMAV_vL4t6O9v4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97lMqQAMAV_vL4t6O9v4-26">
+          <mxGeometry x="-0.6565" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-10" value="控制权是否&lt;div&gt;已被人持有&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="280" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-12" target="97lMqQAMAV_vL4t6O9v4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-12" value="直接抢夺&lt;div&gt;控制权&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-13" target="97lMqQAMAV_vL4t6O9v4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97lMqQAMAV_vL4t6O9v4-19">
+          <mxGeometry x="-0.7414" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-13" target="97lMqQAMAV_vL4t6O9v4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97lMqQAMAV_vL4t6O9v4-20">
+          <mxGeometry x="-0.6949" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-13" value="权限是否高于&lt;div&gt;当前持有人&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="412" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-15" target="97lMqQAMAV_vL4t6O9v4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-39" value="申请通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97lMqQAMAV_vL4t6O9v4-21">
+          <mxGeometry x="-0.5733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-15" target="97lMqQAMAV_vL4t6O9v4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="625" as="sourcePoint" />
+            <mxPoint x="385.0000000000002" y="844.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="775" />
+              <mxPoint x="385" y="775" />
+              <mxPoint x="385" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-40" value="申请失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97lMqQAMAV_vL4t6O9v4-27">
+          <mxGeometry x="-0.7564" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-15" value="wss控制权申请" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-16" target="97lMqQAMAV_vL4t6O9v4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-16" value="控制权转移" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-17" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97lMqQAMAV_vL4t6O9v4-18" target="97lMqQAMAV_vL4t6O9v4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="97lMqQAMAV_vL4t6O9v4-18" value="下发获取&lt;div&gt;控制权指令&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
